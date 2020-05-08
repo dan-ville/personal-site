@@ -1,0 +1,163 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:  #ff7315;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+div {
+  margin: 0;
+}
+h1 {
+  color: #ff7315;
+  margin: 50px auto 0 auto;
+  font-family: 'Righteous', cursive;
+  font-size: 5.625rem;
+}
+h2 {
+  color: #232020;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #232020;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+hr {
+  border: dotted #f5b971 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p {
+  color: #232020;
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+.about-me {
+  width: 50%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: auto;
+}
+.bottom-container {
+  background-color: #f5b971;
+  padding: 35px 0 5px;
+  text-align: center;
+}
+/* .contact-me {
+  background-color: #f5b971;
+  color: #232020;
+  height: 10%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+} */
+.contact-message {
+  line-height: 2;
+  width: 30%;
+  margin-bottom: 3rem;
+}
+.footer-link {
+  color: #e7721d;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  padding: 10px;
+}
+.footer-link:hover {
+  color: white;
+}
+.get-in-touch {
+  padding-bottom: 50px;
+}
+.middle-container {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding-top: 100px;
+}
+.mountain {
+  position: static;
+}
+.platter {
+  width: 15%;
+  margin-top: 30px;
+  /* float: left;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  padding-top: 30px; */
+}
+.profile {
+  line-height: 2;
+}
+.skills {
+  background-color: #f4f4f4;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  padding: auto;
+  line-height: 2;
+}
+.skillsphoto {
+  width: 25%;
+}
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 15px;
+}
+.top-container {
+  background-color: #232020;
+  padding-top: 130px;
+  position: relative;
+}
+/*
+So after I finally figured out what was happening with the button, I realized that this thing has a lot of unknowns for me and it gave me issues because I didn't know how some of the code for it would affect other elements. I realized I had other sloppy mistakes in my code, especially relating to the contact-message class, and that's why the paragraph was overflowing with my button. I fixed it though.
+*/
+
+.btn {
+  background: #F3941B;
+  background-image: -webkit-linear-gradient(top, #F3941B, #E56628);
+  background-image: -moz-linear-gradient(top, #F3941B, #E56628);
+  background-image: -ms-linear-gradient(top, #F3941B,#E56628);
+  background-image: -o-linear-gradient(top, #F3941B, #E56628);
+  background-image: linear-gradient(to bottom,#F3941B, #E56628);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Lota', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  /* position: relative;
+  top: 30px; */
+}
+.btn:hover {
+  background: #F3941B;
+  background-image: -webkit-linear-gradient(top,#E56628, #F3941B);
+  background-image: -moz-linear-gradient(top, #E56628, #F3941B);
+  background-image: -ms-linear-gradient(top,#E56628, #F3941B);
+  background-image: -o-linear-gradient(top, #E56628, #F3941B);
+  background-image: linear-gradient(to bottom, #E56628, #F3941B);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+#skills-1 {
+  text-align: center;
+  width: 40%;
+}
+#skills-2 {
+  text-align: center;

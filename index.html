@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daniel Villegas</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="css/images/me.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+I suppose this section is acting as the "hero" that you see on some website building platforms.  -->
+
+  <div class="top-container">
+    <img class="top-cloud" src="css/images/cloud.png" alt="cloud-img">
+    <h1><strong>I'm Danny,</strong></h1>
+    <h2 style="color: #f4f4f4; margin-top: 0;">a <span style="color: #ff7315">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="css/images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="css/images/mountain.png" alt="mountain-img">
+  </div>
+
+<!--  This section of the body has got 3 main divs categories. The "middle-container" class is the first; it is the overarching div that holds the "profile", the "skill-row", and the "get-in-touch" classes of divs... Finally, within the "skills" div, you have two "skill-row" divs. -->
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="css/images/danny.jpg" alt="photo of Danny">
+      <h2>Nice to meet you.</h2>
+      <p><em>I'm a human, being.</em></p>
+      <p class="about-me">I am a Colombian-American raised and based in Miami.
+      I am learning to code and I want to spend my life doing full time ministry.
+      I'll be pursuing a seminary degree so I can spit ℻.
+      I'm writing an epic fantasy book called <strong>The Vale</strong>. <em>You can <a href="https://docs.google.com/document/d/1UbgGI-LjphlJBPyoKvGZGVl860tjagKLBXpOanTEfRM/edit?usp=sharing" target="_blank">read the first three chapters here</a></em>.</p>
+    </div>
+
+<!-- This is the skills section. Where we were supposed to put in 2 skills and pictures to go with them, I did 1 set of skills and the next section displays three photos. It doesn't all look that great because the photos are real while everything else in the website is graphic design, but for the sake of learning I thought it would be cool to see what I could do with positioning and different kinds of elements. -->
+
+    <hr>
+    <div class="skills">
+
+      <h2>My Skills</h2>
+
+      <div class="skill-row" id="skills-1">
+        <!-- <h3>Primary Skills</h3> -->
+        <p>My skills include photography, cooking, and web development. Within web dev: HTML, CSS, Javascript, SQL, and soon Python as well.</p>
+        <img class="platter" src="css/images/dinner.png" alt="icon of a silver platter">
+      </div>
+
+<!-- Here I have a heading and the three photos that I mentioned earlier. It's the second skill-row of the middle container.  -->
+
+      <div class="skill-row" id="skills-2">
+        <h2>Some of my photos</h2>
+        <img class="skillsphoto" src="css/images/rio.jpg" alt="blue hour in the Christ Redeemer entrance.">
+        <img class="skillsphoto" src="css/images/saopaulo.jpg" alt="an upward shot of pedesetrians in Liberdade, Sao Paulo.">
+        <img class="skillsphoto" src="css/images/train.jpg" alt="A family of three in a train.">
+      </div>
+
+    </div>
+
+    <hr>
+
+<!-- This is the last div in "middle-container". -->
+
+    <div class="get-in-touch">
+      <h2 style="margin-bottom: 0px;">Get In Touch</h2>
+      <h3 style="padding-top: 0; margin-top: 0;">Please reach out, meeting new people is my favorite hobby!</h3>
+      <p class="contact-message">If you like cooking, taking photos, exploring the world, talking about fantasy fiction or games, art, working out, or coding, we might just become good friends...</p>
+      <!-- this button is so annoying lol -->
+      <a href="mailto:d.villegas@visiontravel.net" class="btn">CONTACT ME</a>
+    </div>
+
+  </div>
+
+<!-- This is where I'm having the hardest problem. I tried creating the button from the cssbuttoncreator that was linked to in the course, but when I updated the stylesheet with the CSS code that was generated from the button generator, nothing changed on the website. I am stuck with the regular, blue underlined anchor element hyperlink. Can't seem to figure out what is wrong. -->
+
+<!-- Update: I was able to figure out what happened with the button. It turned out that it wasn't working for other people in the course and the reason may be that the code from the CSS Button Generator probably had some errors. I worked this out by going to Angela's completed website and inspecting, copying the CSS from there directly, and injecting it into my stylesheet. Then I changed the colors. That worked to make the button to appear as it should, but now it was having the issue of sitting on top of my paragraph text, even though the position was still static and there should have been some separation as it is in the normal flow. When I tried to apply margins to it, nothing happened, so I resorted to setting the position of the button to relative and moving it that way. -->
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/daniel-villegas-5b6833102/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/eldannyvillegas">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/dan_ville/">Instagram</a>
+    <br>
+    <p style="margin: 1rem;">© 2020 Daniel Villegas.</p>
+    <br>
+  </div>
+
+</body>
+
+</html>
